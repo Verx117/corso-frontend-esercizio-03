@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+  margin:0;
+}
+
+p{
+  margin:0;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+}
+
+
+
+#header > .menu {
+  position: absolute;
+  height: 37px;
+  width: 1140px;
+  top:38px;
+  left:50%;
+  transform: translateX(-50%);
+  
+}
+
+#header > .menu > .fa-solid {
+  position: absolute;
+  top:50%;
+  left: 0;
+  transform:translateY(-50%);
+  display: inline-block;
+  font-size: 24px;
+}
+
+#header > .menu > .link-list {
+  position: absolute;
+  top:50%;
+  left: 44px;
+  transform:translateY(-50%);
+  height: 37px;
+  width: 1096px;
+  
+}
+
+#header > .menu > .link-list > .link {
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+#header > .menu > .link-list > .holadok {
+  left: 0;
+}
+#header > .menu > .link-list > .holadok > a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #101C45;
+}
+
+#header > .menu > .link-list > .home {
+  left: 199px;
+}
+#header > .menu > .link-list > .home > a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #101C45;
+}
+
+#header > .menu > .link-list > .feature {
+  left: 290px;
+}
+#header > .menu > .link-list > .feature > a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#header > .menu > .link-list > .blog {
+  left: 398px;
+}
+#header > .menu > .link-list > .blog > a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#header > .menu > .link-list > .about-us {
+  left: 479px;
+}
+#header > .menu > .link-list > .about-us > a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#header > .menu > .link-list > .login {
+  left: 927px;
+}
+#header > .menu > .link-list > .login > a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #101C45;
+}
+
+#header > .menu > .link-list > .book-now {
+  left: 1023px;
+  border: 1px solid #101C45;
+  width: 117px;
+  height:37;
+  padding:8px 20px;
+}
+#header > .menu > .link-list > .book-now > a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #101C45; }
+
+#main > .container {
+  position: absolute;
+  height: 391px;
+  width: 457px;
+  left:50%;
+  transform: translateX(-50%);
+  top:255px;
+}
+
+#main > .container > .title {
+  width: 457px;
+  height: 186px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  color: #101C45;
+}
+
+#main > .container > .text {
+  width: 457px;
+  height: 90px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #101C45;
+}
+
+#main > .container > .button {
+  display: inline-block;
+  width: 235px;
+  height: 60px;
+  background: #203271;
+}
+#main > .container > .button:hover {
+  cursor: pointer;
+}
+
+#main > .container > .button > .text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+#footer > .container {
+  position: absolute;
+  height: 191px;
+  width: 1221px;
+  left:50%;
+  transform: translateX(-50%);
+  top: 755px;
+  background-color: #203271;
+}
+
+#footer > .container > .div-calendar{
+  position: relative;
+  display: inline-block;
+  width: 359px;
+  height: 111px;
+}
+
+#footer > .container > .div-calendar > .fa-regular {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.6);
+  position: absolute; 
+  top:40%;
+  left:15%;
+}
+
+#footer > .container > .div-calendar > .title {
+  position: absolute;
+  width: 294px;
+  top: 40%;
+  left: 35%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  
+}
+
+#footer > .container > .div-calendar > .text {
+  position: absolute;
+  width: 280px;
+  height:78px;
+  top: 60%;
+  left: 35%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  
+}
+
+#footer > .container > .div-bell{
+  position: relative;
+  display: inline-block;
+  width: 359px;
+  height: 111px;
+}
+
+#footer > .container > .div-bell > svg {
+  position: absolute;
+  opacity: 0.6;
+  top: 40%;
+  left: 25%;
+
+}
+
+#footer > .container > .div-bell > .title {
+  position: absolute;
+  width: 294px;
+  top: 40%;
+  left: 45%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+#footer > .container > .div-bell > .text {
+  position: absolute;
+  width: 280px;
+  height:78px;
+  top: 60%;
+  left: 45%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#footer > .container > .div-camera{
+  position: relative;
+  display: inline-block;
+  width: 359px;
+  height: 111px;
+}
+
+#footer > .container > .div-camera > svg {
+  position: absolute;
+  opacity: 0.6;
+  top: 40%;
+  left: 30%;
+}
+
+#footer > .container > .div-camera > .title {
+  position: absolute;
+  width: 294px;
+  top: 40%;
+  left: 50%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+#footer > .container > .div-camera > .text {
+  position: absolute;
+  width: 280px;
+  height:78px;
+  top: 60%;
+  left: 50%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.8);
+}
